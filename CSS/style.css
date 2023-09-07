@@ -189,7 +189,10 @@ h1 {
   text-decoration: none;
   margin-right: 10px;
 }
-i {
+.interior-section i {
+  color: #fff;
+}
+.nav-icon i {
   color: #fff;
   font-size: 30px;
 }
