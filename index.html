@@ -4,24 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/098c2dda99.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" media="screen and (max-width: 1300px)" href="CSS/responsiveness.css">
+  <!-- <link rel="stylesheet" href="CSS/responsiveness.css">
+  <link rel="stylesheet" href="CSS/hamburger.css"> -->
   <link rel="stylesheet" href="CSS/style.css">
   <title>Interior Consultant</title>
 </head>
-<!-- <body> -->
-  <nav id="navbar">
-    <div>
-      <button class="btn">This Interior</button>
-    </div>
-    <ul class="ul">
-      <li class="bars" ><i class="fa-solid fa-bars"></i></li>
-      <li class="xmark" ><i class="fa-solid fa-xmark"></i></li>
-      <li class="home"><a href="#"></a><span>Home</span></li>
-      <li><a href="#solution"></a>Solution</li>
-      <li><a href="#about"></a>About</li>
-      <li><a href="#contact"></a>Contact</li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <div class="logo">
+        <div>
+          <button class="btn">This Interior</button>
+        </div>
+      </div>
+      <div class="openMenu"><i class="fa-solid fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a id="#" class="links"><span>Home</span></a></li>
+        <li><a id="#collection">Collection</a></li>
+        <li>
+          <a id="#about"
+            >About</a
+          >
+        </li>
+        <li>
+          <a id="#contact">Contact</a>
+        </li>
+        <div class="closeMenu">
+          <li><i class="fa-solid fa-xmark"></i></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
   <main class="container">
     <section class="interior-section">
       <h1>Modern interior</h1>
@@ -50,5 +63,8 @@
   <footer class="footer">
     <small>created by Engamo - devChallenges.io</small>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
